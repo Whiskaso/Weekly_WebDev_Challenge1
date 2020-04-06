@@ -65,6 +65,39 @@
             </form>
         </section>   <!-- END REGISTER FORM -->
 
+        <section>   <!-- SEND EMAIL FORM -->
+
+            <h1>Send Email</h1>
+
+            <form action="index.html" method="post">
+                <fieldset>
+
+                    <div>
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="emailformname" name="user_name" placeholder="Your Name">
+                    </div>
+
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="emailformemail" name="user_email" placeholder="Your Email">
+                    </div>
+
+                    <div>
+                        <textarea id="message" name="message" placeholder="Type your message..."></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="copy" name="copy">
+                        <label for="copy">Send a copy to my Email</label>
+                    </div>
+
+                    <button type="button">Send Email</button>
+
+                </fieldset>
+            </form>
+        </section>  <!-- END SEND EMAIL FORM-->
+
+
         <section>     <!-- SING IN FORM-->
             
             <h1>Sing In Form</h1>
@@ -74,12 +107,12 @@
                     
                     <div>
                         <i class="fas fa-user"></i>
-                        <input type="text" id="username" name="user_name" placeholder="Username">
+                        <input type="text" id="singinusername" name="user_name" placeholder="Username">
                     </div>
 
                     <div>
                         <i class="fas fa-lock"></i>
-                        <input type="password" id="password" name="user_password" placeholder="Password">
+                        <input type="password" id="singinpassword" name="user_password" placeholder="Password">
                     </div>
 
                     <div>
@@ -93,6 +126,49 @@
             </form>
 
         </section>    <!-- END SING IN FORM-->
+
+        <section>   <!-- RECOVER FORM-->
+
+            <h1>Recover Form</h1>
+
+            <form action="index.html" method="post">
+                <fieldset>
+
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="recoveremail" name="user_email" placeholder="Enter your Email">
+                    </div>
+
+                    <div>
+                        <i class="fas fa-mobile"></i>
+                        <input type="tel" id="phonenumber" name="user_phone" placeholder="Enter your phone number">
+                    </div>
+
+                    <button type="button">Send</button>
+                    <button type="button">Done</button>
+
+                </fieldset>
+            </form>
+        </section>  <!-- END RECOVER FORM -->
+
+        <section>   <!-- SUBSCRIBE FORM-->
+
+            <h1>Subscribe Form</h1>
+
+            <form action="index.html" method="post">
+                <fieldset>
+
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="subscribeemail" name="user_email" placeholder="Enter your Email">
+                    </div>
+
+                    <button type="button">Subscribe</button>
+                    <button type="button">No, thanks</button>
+
+                </fieldset>
+            </form>
+        </section>  <!-- END SUBSCRIBE FORM-->
     </div>
 
 
