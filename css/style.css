@@ -1,0 +1,171 @@
+/* =========================
+BASE ELEMENT STYLE 
+============================*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/background.jpg) no-repeat center;
+    background-size: cover;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 40px;
+}
+
+img {
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+fieldset {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 15px solid rgba(0, 0, 0, .25);
+    border-radius: 5px;
+}
+
+input {
+    padding-left: 10px;
+    border: none;
+    border-left: 1px solid rgb(169, 169, 169);
+    width: 80%;
+    color: rgb(169, 169, 169);
+}
+
+input::placeholder {
+    color: rgb(169, 169, 169);
+}
+
+select {
+    padding-left: 10px;
+    border: none;
+    border-left: 1px solid rgb(169, 169, 169);
+    width: 80%;
+    color: rgb(169, 169, 169);
+}
+
+i {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    width: 15%;
+    color: rgb(169, 169, 169);
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 5px;
+    height: 180px;
+    padding: 10px;
+    resize: none;
+}
+
+label {
+    color: rgb(169, 169, 169);
+}
+
+button {
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+
+    background-color: rgba(126, 195, 31, 0.9);
+    border: 1px solid rgba(85, 131, 21, 0.9);
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgba(126, 195, 31, 0.6);
+    border: 1px solid rgba(85, 131, 21, 0.6);
+}
+
+
+/* ==============================
+BASE LAYOUT STYLES
+=============================== */
+
+.field {
+    padding: 5px;
+    margin: 15px 0;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 5px;
+}
+
+.checkbox {
+    width: 8%;
+}
+
+.checkbox-div {
+    margin: 15px 0;
+}
+
+/* ============ BUTTONS ============ */
+
+.full-button {
+    width: 100%;
+}
+
+.button-disabled {
+    background-color: rgba(126, 195, 31, 0.6);
+    border: 1px solid rgba(85, 131, 21, 0.6);
+}
+
+.negative-button {
+    background-color: rgba(231, 18, 18, 0.9);
+    border: 1px solid rgba(165, 12, 12, 0.9);
+}
+
+.negative-button:hover {
+    background-color: rgba(231, 18, 18, 0.6);
+    border: 1px solid rgba(165, 12, 12, 0.6);
+}
+
+/* ============ LAYOUR CONTAINERS ============ */ 
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.field-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pair-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-1,
+.item-2 {
+    width: 45%
+}
+
+/* ============= LOGO =========== */
+
+.logo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
