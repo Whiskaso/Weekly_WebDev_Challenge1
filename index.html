@@ -10,186 +10,184 @@
 </head>
 <body>
 
+    <header class="main-header logo">
+        <img src="img/logo.png" alt="logo masteralb"> 
+    </header>
+
     <div class="wrapper">
-        <header class="main-header logo">
-            <img src="img/logo.png" alt="logo masteralb"> 
-        </header>
 
-        <div>
+        <section class="form-wrapper">   <!-- REGISTER FORM -->
+            <h2>Register Form</h2>
 
-            <section class="form-wrapper">   <!-- REGISTER FORM -->
-                <h2>Register Form</h2>
+            <form action="index.html" method="post">
+                <fieldset>
+                    <div class="field-wrapper">
 
-                <form action="index.html" method="post">
-                    <fieldset>
-                        <div class="field-wrapper">
-
-                            <div class="field">
-                                <i class="fas fa-user"></i>
-                                <input type="text" id="username" name="user_name" placeholder="Username">
-                            </div>
-
-                            <div class="field">
-                                <i class="fas fa-lock"></i>
-                                <input type="password" id="password" name="user_password" placeholder="Password">
-                            </div>
-
-                            <div class="field">
-                                <i class="fas fa-lock"></i>
-                                <input type="password" id="confirm" name="user_password" placeholder="Confirm password">
-                            </div>
-                            
-                            <div class="field">
-                                <i class="fas fa-envelope"></i>
-                                <input type="email" id="email" name="user_email" placeholder="Email">
-                            </div>
-
-                            <div class="field">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <select id="location" name="user_location">
-                                    <option value="">Your Location</option>
-                                    <option value="europe">Europe</option>
-                                    <option value="asia">Asia</option>
-                                    <option value="australia">Australia</option>
-                                    <option value="africa">Africa</option>
-                                    <option value="north america">North America</option>
-                                    <option value="south america">South America</option>
-                                </select>
-                            </div>
-
-                            <div class="checkbox-div">
-                                <input class="checkbox" type="checkbox" id="terms" name="terms">
-                                <label for="terms">I have read and accept the terms of use</label>
-                            </div>
-
-                            <button class="full-button" type="button">Sing up</button>
-
+                        <div class="field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="username" name="user_name" placeholder="Username">
                         </div>
-                    </fieldset>
-                </form>
-            </section>   <!-- END REGISTER FORM -->
 
-            <section class="form-wrapper">   <!-- SEND EMAIL FORM -->
-
-                <h2>Send Email</h2>
-
-                <form action="index.html" method="post">
-                    <fieldset>
-                        <div class="field-wrapper">
-
-                            <div class="field">
-                                <i class="fas fa-user"></i>
-                                <input type="text" id="emailformname" name="user_name" placeholder="Your Name">
-                            </div>
-
-                            <div class="field">
-                                <i class="fas fa-envelope"></i>
-                                <input type="email" id="emailformemail" name="user_email" placeholder="Your Email">
-                            </div>
-
-                            <div class="checkbox-div">
-                                <textarea id="message" name="message" placeholder="Type your message..."></textarea>
-                            </div>
-
-                            <div class="checkbox-div">
-                                <input class="checkbox" type="checkbox" id="copy" name="copy">
-                                <label for="copy">Send a copy to my Email</label>
-                            </div>
-
-                            <button class="full-button" type="button">Send Email</button>
-
+                        <div class="field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="password" name="user_password" placeholder="Password">
                         </div>
-                    </fieldset>
-                </form>
-            </section>  <!-- END SEND EMAIL FORM-->
 
-
-            <section class="form-wrapper">     <!-- SING IN FORM-->
-                
-                <h2>Sing In Form</h2>
-
-                <form action="index.html" method="get">
-                    <fieldset>
-                        <div class="field-wrapper">
-
-                            <div class="field">
-                                <i class="fas fa-user"></i>
-                                <input type="text" id="singinusername" name="user_name" placeholder="Username">
-                            </div>
-
-                            <div class="field">
-                                <i class="fas fa-lock"></i>
-                                <input type="password" id="singinpassword" name="user_password" placeholder="Password">
-                            </div>
-
-                            <div class="pair-container">
-                                <div class="checkbox-div item-1">
-                                    <input class="checkbox" type="checkbox" id="remember" name="remember">
-                                    <label for="remember">Remember me</label>
-                                </div>
-
-                                <button class="item-2" type="button">Sing in</button>
-                            </div>
-
+                        <div class="field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="confirm" name="user_password" placeholder="Confirm password">
                         </div>
-                    </fieldset>
-                </form>
-
-            </section>    <!-- END SING IN FORM-->
-
-            <section class="form-wrapper">   <!-- RECOVER FORM-->
-
-                <h2>Recover Form</h2>
-
-                <form action="index.html" method="post">
-                    <fieldset>
-                        <div class="field-wrapper">
-
-                            <div class="field">
-                                <i class="fas fa-envelope"></i>
-                                <input type="email" id="recoveremail" name="user_email" placeholder="Enter your Email">
-                            </div>
-
-                            <div class="field">
-                                <i class="fas fa-mobile"></i>
-                                <input type="tel" id="phonenumber" name="user_phone" placeholder="Enter your phone number">
-                            </div>
-
-                            <div class="pair-container">
-                                <button class="item-1" type="button">Send</button>
-                                <button class="item-2 button-disabled" type="button">Done</button>
-                            </div>
-
+                        
+                        <div class="field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" name="user_email" placeholder="Email">
                         </div>
-                    </fieldset>
-                </form>
-            </section>  <!-- END RECOVER FORM -->
 
-            <section class="form-wrapper">   <!-- SUBSCRIBE FORM-->
-
-                <h2>Subscribe Form</h2>
-
-                <form action="index.html" method="post">
-                    <fieldset>
-                        <div class="field-wrapper">
-
-                            <div class="field">
-                                <i class="fas fa-envelope"></i>
-                                <input type="email" id="subscribeemail" name="user_email" placeholder="Enter your Email">
-                            </div>
-
-                            <div class="pair-container">
-                                <button class="item-1" type="button">Subscribe</button>
-                                <button class="item-2 negative-button" type="button">No, thanks</button>
-                            </div>
-
+                        <div class="field">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <select id="location" name="user_location">
+                                <option value="">Your Location</option>
+                                <option value="europe">Europe</option>
+                                <option value="asia">Asia</option>
+                                <option value="australia">Australia</option>
+                                <option value="africa">Africa</option>
+                                <option value="north america">North America</option>
+                                <option value="south america">South America</option>
+                            </select>
                         </div>
-                    </fieldset>
-                </form>
-            </section>  <!-- END SUBSCRIBE FORM-->
-        </div>
 
-        <footer class="logo">
+                        <div class="checkbox-div">
+                            <input class="checkbox" type="checkbox" id="terms" name="terms">
+                            <label for="terms">I have read and accept the terms of use</label>
+                        </div>
+
+                        <button class="full-button" type="button">Sing up</button>
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>   <!-- END REGISTER FORM -->
+
+        <section class="form-wrapper">   <!-- SEND EMAIL FORM -->
+
+            <h2>Send Email</h2>
+
+            <form action="index.html" method="post">
+                <fieldset>
+                    <div class="field-wrapper">
+
+                        <div class="field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="emailformname" name="user_name" placeholder="Your Name">
+                        </div>
+
+                        <div class="field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="emailformemail" name="user_email" placeholder="Your Email">
+                        </div>
+
+                        <div class="checkbox-div">
+                            <textarea id="message" name="message" placeholder="Type your message..."></textarea>
+                        </div>
+
+                        <div class="checkbox-div">
+                            <input class="checkbox" type="checkbox" id="copy" name="copy">
+                            <label for="copy">Send a copy to my Email</label>
+                        </div>
+
+                        <button class="full-button" type="button">Send Email</button>
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>  <!-- END SEND EMAIL FORM-->
+
+
+        <section class="form-wrapper">     <!-- SING IN FORM-->
+            
+            <h2>Sing In Form</h2>
+
+            <form action="index.html" method="get">
+                <fieldset>
+                    <div class="field-wrapper">
+
+                        <div class="field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="singinusername" name="user_name" placeholder="Username">
+                        </div>
+
+                        <div class="field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="singinpassword" name="user_password" placeholder="Password">
+                        </div>
+
+                        <div class="pair-container">
+                            <div class="checkbox-div item-1">
+                                <input class="checkbox" type="checkbox" id="remember" name="remember">
+                                <label for="remember">Remember me</label>
+                            </div>
+
+                            <button class="item-2" type="button">Sing in</button>
+                        </div>
+
+                    </div>
+                </fieldset>
+            </form>
+
+        </section>    <!-- END SING IN FORM-->
+
+        <section class="form-wrapper">   <!-- RECOVER FORM-->
+
+            <h2>Recover Form</h2>
+
+            <form action="index.html" method="post">
+                <fieldset>
+                    <div class="field-wrapper">
+
+                        <div class="field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="recoveremail" name="user_email" placeholder="Enter your Email">
+                        </div>
+
+                        <div class="field">
+                            <i class="fas fa-mobile"></i>
+                            <input type="tel" id="phonenumber" name="user_phone" placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="pair-container">
+                            <button class="item-1" type="button">Send</button>
+                            <button class="item-2 button-disabled" type="button">Done</button>
+                        </div>
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>  <!-- END RECOVER FORM -->
+
+        <section class="form-wrapper">   <!-- SUBSCRIBE FORM-->
+
+            <h2>Subscribe Form</h2>
+
+            <form action="index.html" method="post">
+                <fieldset>
+                    <div class="field-wrapper">
+
+                        <div class="field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="subscribeemail" name="user_email" placeholder="Enter your Email">
+                        </div>
+
+                        <div class="pair-container">
+                            <button class="item-1" type="button">Subscribe</button>
+                            <button class="item-2 negative-button" type="button">No, thanks</button>
+                        </div>
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>  <!-- END SUBSCRIBE FORM-->
+
+        <footer class="main-footer logo">
             <img src="img/logo2.png" alt="logo2">
         </footer>
     </div>

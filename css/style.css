@@ -169,3 +169,30 @@ BASE LAYOUT STYLES
 /* ================================= 
   Media Queries
 ==================================== */
+
+@media (min-width: 769px){
+
+/* ============ LAYOUR CONTAINERS ============ */ 
+
+.wrapper {
+    width: 80%;
+}
+}
+
+@media (min-width: 1025px){
+
+/* ============ LAYOUR CONTAINERS ============ */ 
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    height: 170vh;
+    align-items: space-between;
+    width: 90%;
+}
+
+.form-wrapper,
+.main-footer {
+    width: 40%
+}
+}
